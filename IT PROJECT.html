@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "descrebtion" content="">
+		<title> GLORIA HOTEL</title>
+		<link rel="stylesheet" href="it.css">
+	</head>
+	<body>
+		<div class="topnav">
+		  <a class="active" href="file:///C:/Users/dell/Desktop/it%20progect/IT%20PROJECT.html">Home</a>
+		  <a href="file:///C:/Users/dell/Desktop/it%20progect/IT%20PROJECT%20RESERVATION.html">RESERVATION</a>
+		  <a href="file:///C:/Users/dell/Desktop/it%20progect/CONTACT%20US%201.html">CONTACT US</a>
+		  <a href="file:///C:/Users/dell/Desktop/it%20progect/ABOUT%20US.html">ABOUT US</a>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1 align ="center"class="f">WELCOME TO GLORIA HOTEL</h1>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="slideshow-container">
+
+		  <div class="mySlides fade">
+			<div class="numbertext">1 / 5</div>
+			<img src="https://th.bing.com/th/id/R27432327fa68c5933038d45f81aaaca3?rik=mgvd3ksQ9sG2Ow&pid=ImgRaw" style="width:100%">
+			<div class="text"> </div>
+		  </div>
+
+		  <div class="mySlides fade">
+			<div class="numbertext">2 / 5</div>
+			<img src="https://www.bibione.eu/wp-content/uploads/2016/11/Bibione-Palace-1.jpg" style="width:100%">
+			<div class="text"> </div>
+		  </div>
+
+		  <div class="mySlides fade">
+			<div class="numbertext">3 / 5</div>
+			<img src="https://th.bing.com/th/id/Ra340caaced932051c40bdb71313867aa?rik=k5O8xTryQWEmJQ&riu=http%3a%2f%2fwww.gerstner-hotels.at%2fit%2fgrafik%2fbg-photo%2fhdf%2fhotel-atrium-01.jpg&ehk=ryG7b2UvpYXeWQHBGXpRHq%2b%2fPIM2bUDBS3%2fWX13gRLU%3d&risl=&pid=ImgRaw" style="width:100%">
+			<div class="text"> </div>
+		  </div>
+               
+			   
+		  <div class="mySlides fade">
+			<div class="numbertext">4 / 5</div>
+			<img src="https://timbuktutravel.imgix.net/lodges/kodak_images/000/001/158/original/polana-serena-hotel-maputo-mozambique-timbuktu-travel.JPG?w=1420&h=946&auto=format&crop=fit&fit=min&dpr=1&q=50" style="width:100%">
+			<div class="text"> </div>
+		  </div>
+		 
+          <div class="mySlides fade">
+			<div class="numbertext">5 / 5</div>
+			<img src="https://www.mozambiquetours.co.za/wp-content/gallery/avani-pemba-beach-hotel-spa/pemba1219.jpg" style="width:100%">
+			<div class="text"> </div>
+		  </div>
+		 
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span>
+		  <span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<h1 align ="center"class="f">MAKE YOUR VACATION BETTER</h1>
+		<p align="center"class="f">Gloria Honors members get more value from stays with exclusive member rates, lowest price guarantee, and free WiFi.<br> You'll also enjoy more flexibility and control with Contactless Arrival with our Gloria Honors app.<br> Plus, earn Points on every stay that you can use toward free nights or redeem them with our exclusive partners</p>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="h"align="center">
+			<table border="1" width="1000px" >
+				<tr align="center" class="l">
+					<th>ROOM</th>
+					<th>DURATION</th>
+					<th>PRICE</th>
+				</tr>
+				<tr align="center">
+					<td>Single Room</td>
+					<td>1 Day</td>
+					<td>200$</td>
+				</tr>
+				<tr align="center">
+					<td>Double Room</td>
+					<td>1 Day</td>
+					<td>350$</td>
+				</tr>
+				<tr align="center">
+					<td>Suite</td>
+					<td>1 Day</td>
+					<td>500$</td>
+				</tr>
+				<tr align="center">
+					<td>Chalet</td>
+					<td>1 Day</td>
+					<td>1000$</td>
+				</tr>
+				<tr align="center">
+					<td>villa</td>
+					<td>1 Day</td>
+					<td>2000$</td>
+				</tr>
+			</table>
+		</div>
+		<p class="f">visetors number: 605.756</p>
+		<div class="g" align="center">Welcome any time</div>
+		<br>
+		<br>
+	</body>
+</html>

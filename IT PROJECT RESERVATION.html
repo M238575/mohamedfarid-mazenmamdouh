@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "descrebtion" content="">
+		<title>GLORIA HOTEL</title>
+		<style>
+		body
+		{
+			background-image:url("http://3.bp.blogspot.com/-w7Uk51yP2_4/VBh5nw0AFCI/AAAAAAAAJ9s/6OQAaPukSdw/s1600/dubai%2Batlantis%2Bhotel%2Bhd%2Bwallpaper%2Bpicture.jpg");
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+		{box-sizing: border-box}
+				
+		  input[type=text], input[type=password] {
+		  width: 20%;
+		  padding: 15px;
+		  margin: 5px 0 22px 0;
+		  display: inline-block;
+		  border: none;
+		  background: #f1f1f1;
+		}
+
+		input[type=text]:focus, input[type=password]:focus {
+		  background-color: #ddd;
+		  outline: none;
+		}
+
+		hr {
+		  border: 1px solid #f1f1f1;
+		  margin-bottom: 25px;
+		}
+
+		button {
+		  background-color: #04AA6D;
+		  color: white;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+		  width: 100%;
+		  opacity: 0.9;
+		}
+
+		button:hover {
+		  opacity:1;
+		}
+
+		.container {
+		  padding: 16px;
+		}
+
+		.clearfix::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+
+		@media screen and (max-width: 300px) {
+		  .cancelbtn, .signupbtn {
+			width: 100%;
+		  }
+		}
+		.button {
+		  border-radius: 4px;
+		  background-color: #f4511e;
+		  border: none;
+		  color: #FFFFFF;
+		  text-align: center;
+		  font-size: 28px;
+		  padding: 20px;
+		  width: 200px;
+		  transition: all 0.5s;
+		  cursor: pointer;
+		  margin: 5px;
+		}
+
+		.button span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.5s;
+		}
+
+		.button span:after {
+		  content: '\00bb';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+		.button:hover span {
+		  padding-right: 25px;
+		}
+
+		.button:hover span:after {
+		  opacity: 1;
+		  right: 0;
+		}
+		</style>
+	</head>
+	<body>
+		<form action="action_page.php" >
+			<div class="container">
+				<h1>Sign Up</h1>
+				<p>Please fill in this form to book.</p>
+				<label for="name"><b>Name      </b></label>
+				<input type="text" placeholder="Enter Your Name" name="name" required>
+				<br>
+				<label for="id"><b>Nathional ID</b></label>
+				<input type="text" placeholder="Enter Your ID" name="id" required>
+				<br>
+				<label for="num"><b>Phone number</b></label>
+				<input type="text" placeholder="Enter Your number" name="num" required>
+				<br>
+				<label for="email"><b>Email</b></label>
+				<input type="text" placeholder="Enter Email" name="email" required>
+				<br>
+				<label>
+				  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+				</label>
+
+				<div class="clearfix">
+				  <button type="button" class="button">Cancel</button>
+				  <button class="button"><span>Sign up </span></button>
+				</div>
+			  </div>
+		</form>
+
+	</body>
+</html>
